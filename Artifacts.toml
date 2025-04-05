@@ -1,160 +1,118 @@
 [[qpOASES]]
 arch = "aarch64"
-git-tree-sha1 = "8ec5061f41e2d29a97f684d3f147e11891a727ce"
+git-tree-sha1 = "25719d6b4a489ba2e24ff9039004e6704fb761ee"
 os = "macos"
 
     [[qpOASES.download]]
-    sha256 = "0e4d8039d308203eaafff3fab3607afced8ea3f4045283eecc7c75ea1c95e8a6"
-    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.1+0/qpOASES.v3.2.1.aarch64-apple-darwin.tar.gz"
+    sha256 = "2db1f880218d9fa73d95ef63981a2aeca19bedc3837c66473b1f507741aa18cb"
+    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.2+0/qpOASES.v3.2.2.aarch64-apple-darwin.tar.gz"
 [[qpOASES]]
 arch = "aarch64"
-git-tree-sha1 = "9e4f8f6c2c7d86c7651963093a5920fc61b33de4"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9eaef19903f59b7f0adfe539520d89ab03af0038"
 libc = "glibc"
 os = "linux"
 
     [[qpOASES.download]]
-    sha256 = "33cfe130c6de51be46e242014065e57896d34436caa6bb49b553e4a6d02c508b"
-    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.1+0/qpOASES.v3.2.1.aarch64-linux-gnu.tar.gz"
+    sha256 = "e19a35f4450bffa48b8679b1dee2a8ecbf8c17b2ba6be3cd403e6aeda92a6346"
+    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.2+0/qpOASES.v3.2.2.aarch64-linux-gnu-cxx03.tar.gz"
 [[qpOASES]]
 arch = "aarch64"
-git-tree-sha1 = "19dd3de72ae02a35c1031e0bcd8156f97806cf50"
-libc = "musl"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "53440a9424e2bc06eb90a06371edf2c91bb50e94"
+libc = "glibc"
 os = "linux"
 
     [[qpOASES.download]]
-    sha256 = "23cabd64f90378601d0c0351829b558c2bd6471a74721d84a5838799cd12a8f0"
-    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.1+0/qpOASES.v3.2.1.aarch64-linux-musl.tar.gz"
-[[qpOASES]]
-arch = "aarch64"
-git-tree-sha1 = "c24d05ab0623fda96c33d5c8bda527a29e8feabf"
-os = "freebsd"
-
-    [[qpOASES.download]]
-    sha256 = "d270eb52fafc50d9c91008f56270f43975709b1f9bbe49bcd1990d9a265405ef"
-    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.1+0/qpOASES.v3.2.1.aarch64-unknown-freebsd.tar.gz"
+    sha256 = "44ec76a414ef6951fbf28be205d20d074f9149f644737db2ccaef1b9147db2d3"
+    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.2+0/qpOASES.v3.2.2.aarch64-linux-gnu-cxx11.tar.gz"
 [[qpOASES]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "ee2fa216f8dec524260aa053e61125a8f7ce515e"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "31f2351ba81e3b1f8b7e96a0f1e6c1b4dc027339"
 libc = "glibc"
 os = "linux"
 
     [[qpOASES.download]]
-    sha256 = "05014dc8c82f035b5eea4f65f98cb9028ee162e628adda6569aee3b63c91dcf6"
-    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.1+0/qpOASES.v3.2.1.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "badfbb91b91d1e4a437dbd5cea9580309815687fccef35ee073d5e7478e73904"
+    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.2+0/qpOASES.v3.2.2.armv6l-linux-gnueabihf-cxx03.tar.gz"
 [[qpOASES]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "cfbe8b59fbf5e2f19a08ec7b9817412e95cac855"
-libc = "musl"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "270213e57b45da1f70ced198b670dfbbf1b0a7ab"
+libc = "glibc"
 os = "linux"
 
     [[qpOASES.download]]
-    sha256 = "004f4075ab8d3bbbced1d7adb6884d1b76fedc3bf1c6f1b9803855fb5555fa8f"
-    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.1+0/qpOASES.v3.2.1.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "334fab60eab9a066af5e47868cd81a12918d42e7c55c09d7aea4ead02b5fe7de"
+    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.2+0/qpOASES.v3.2.2.armv6l-linux-gnueabihf-cxx11.tar.gz"
 [[qpOASES]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "92edb22d4889bc5c5336a21bbb6d1e91509222f7"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e5a020cc9a3865cd88f3f0a139c9b21fbf690767"
 libc = "glibc"
 os = "linux"
 
     [[qpOASES.download]]
-    sha256 = "893c6007e141a4512cf7152fc9a8b76758e905e0e1506455f626f74394ed07de"
-    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.1+0/qpOASES.v3.2.1.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "1dfdee93347e881f5cb352e7b07e2e6ae0fdf030a505b97c05a9d26e9240bc0f"
+    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.2+0/qpOASES.v3.2.2.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[qpOASES]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "1f86ef2317d34426a5d734fd21f4892424403686"
-libc = "musl"
-os = "linux"
-
-    [[qpOASES.download]]
-    sha256 = "afadfb5016b4ab47affc260cf1054faf25f73da1db0c917ab263c1ab1c76b746"
-    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.1+0/qpOASES.v3.2.1.armv7l-linux-musleabihf.tar.gz"
-[[qpOASES]]
-arch = "i686"
-git-tree-sha1 = "b825a74374b14bc86e4ffaa3df16e77777adb92b"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "24703ab62ae46f50f83771cb57e685ab5ae20563"
 libc = "glibc"
 os = "linux"
 
     [[qpOASES.download]]
-    sha256 = "4df7d313c3011581e71de49d7850d4741142f6baaf18efb0802d69eecfaada1e"
-    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.1+0/qpOASES.v3.2.1.i686-linux-gnu.tar.gz"
-[[qpOASES]]
-arch = "i686"
-git-tree-sha1 = "bcc3643516b9f518b1d0acdf98991ba6bf96b913"
-libc = "musl"
-os = "linux"
-
-    [[qpOASES.download]]
-    sha256 = "a81622d21a0115411bcc5a6f882fa70f48c7c498cbbf7a5e5599cadc05bcc254"
-    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.1+0/qpOASES.v3.2.1.i686-linux-musl.tar.gz"
-[[qpOASES]]
-arch = "i686"
-git-tree-sha1 = "9e58f80549346620c62ee818a77444631105caf0"
-os = "windows"
-
-    [[qpOASES.download]]
-    sha256 = "dd2975fdb3cdf5ef4420012d4e60df3bcc09bf59b1c6265b62bb5bb72f13b94c"
-    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.1+0/qpOASES.v3.2.1.i686-w64-mingw32.tar.gz"
-[[qpOASES]]
-arch = "powerpc64le"
-git-tree-sha1 = "16152bab69ab98d9bef9944de60c7b68e7b4a454"
-libc = "glibc"
-os = "linux"
-
-    [[qpOASES.download]]
-    sha256 = "091695ee5aabcd0d5d1c9e1398288f5aa8f553c08f4f9e99d0a336673e41950a"
-    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.1+0/qpOASES.v3.2.1.powerpc64le-linux-gnu.tar.gz"
-[[qpOASES]]
-arch = "riscv64"
-git-tree-sha1 = "dec1cbc677ab6247984aec055cf589e163ba3308"
-libc = "glibc"
-os = "linux"
-
-    [[qpOASES.download]]
-    sha256 = "0cf7541d20f9ad38e21ba035c4181f08ace571ea8b0fae8b10c00944de67e0ec"
-    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.1+0/qpOASES.v3.2.1.riscv64-linux-gnu.tar.gz"
+    sha256 = "c0ddeb952c4273afa697bad9eaa5751600542018d46f5520979908d8ba01f119"
+    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.2+0/qpOASES.v3.2.2.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[qpOASES]]
 arch = "x86_64"
-git-tree-sha1 = "c9520e9e7a4c7e8202a41bf057b95184ed5e449c"
+git-tree-sha1 = "c719bc379eb3fe1d9646bfec259d1543f1b4109a"
 os = "macos"
 
     [[qpOASES.download]]
-    sha256 = "85c514e4866c801be8f531854036f707cefba38d514d7f9397b23bdcc34f5bb7"
-    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.1+0/qpOASES.v3.2.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "438c39ae82a33160fceec47cc1897178145a3d93c70b98981cc3cad13a30d275"
+    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.2+0/qpOASES.v3.2.2.x86_64-apple-darwin.tar.gz"
 [[qpOASES]]
 arch = "x86_64"
-git-tree-sha1 = "930a2907fdbda9037ea56d04495ae3ec59a52b28"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f73c37b3f9ca57f648d1043a96f073e03a567b9a"
 libc = "glibc"
 os = "linux"
 
     [[qpOASES.download]]
-    sha256 = "4206a08e57c33e14cd86fcd3857df8e2e79125432117b792ba837a6a540b9232"
-    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.1+0/qpOASES.v3.2.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "6f12cdad74205c400575f94c1d23de5e6e4499ba6f79f6f60303c37f8832e4ef"
+    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.2+0/qpOASES.v3.2.2.x86_64-linux-gnu-cxx03.tar.gz"
 [[qpOASES]]
 arch = "x86_64"
-git-tree-sha1 = "23c997d51821241822993696ed09cd82229e1fd9"
-libc = "musl"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "750e02ba720eba8c8b38903ba8cf3dbc21f0ca24"
+libc = "glibc"
 os = "linux"
 
     [[qpOASES.download]]
-    sha256 = "e787dd7c31ee3d15cc22c3f89d16441ae3d7686a90d8f8693d6eea91868639cf"
-    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.1+0/qpOASES.v3.2.1.x86_64-linux-musl.tar.gz"
+    sha256 = "91e526a78c07445417e81a2a55743a43ca1297773391cd125027f07ed2937572"
+    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.2+0/qpOASES.v3.2.2.x86_64-linux-gnu-cxx11.tar.gz"
 [[qpOASES]]
 arch = "x86_64"
-git-tree-sha1 = "0d34bb9fbc2c9f2359e2411d405a761b5c2bf049"
-os = "freebsd"
-
-    [[qpOASES.download]]
-    sha256 = "7f7cfb125c0702d17465d75a03605e8c8b8923904538e0ccb7308a8494bd2935"
-    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.1+0/qpOASES.v3.2.1.x86_64-unknown-freebsd.tar.gz"
-[[qpOASES]]
-arch = "x86_64"
-git-tree-sha1 = "293c7f19254202293ab66e4c750196ff139aef4d"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c36c19e509746dc64a152aa7d8be0bed440726cf"
 os = "windows"
 
     [[qpOASES.download]]
-    sha256 = "ba9857b7865f078485c0009ea6b6cfbccc28cce8f4530a453e5bfba0998c9e4e"
-    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.1+0/qpOASES.v3.2.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "aed324004da65b3e11ef759c088df530b7e020da0bcaa31147b1d13f6002e603"
+    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.2+0/qpOASES.v3.2.2.x86_64-w64-mingw32-cxx03.tar.gz"
+[[qpOASES]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a9cbbf3a5f6ea79069a32606147bace726aa23c9"
+os = "windows"
+
+    [[qpOASES.download]]
+    sha256 = "b4524e6d305c825efcc054e9e2e3ac96fb2f10771654010d093244618733bd15"
+    url = "https://github.com/JuliaBinaryWrappers/qpOASES_jll.jl/releases/download/qpOASES-v3.2.2+0/qpOASES.v3.2.2.x86_64-w64-mingw32-cxx11.tar.gz"
